@@ -1,10 +1,9 @@
 
+// Create project
 1 Paso. $ git init
 
+// Links project => Repository
 2. Paso. $ git remote add origin URL
-
-
-
 
 
 
