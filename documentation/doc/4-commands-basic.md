@@ -25,9 +25,11 @@
     
     - O se pueden eliminar las modificaciones con git rm
 
-        $ git rm miarchivo.js
+        - git rm --cached miarchivo.js Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+        $ git rm --cached miarchivo.js
 
-        $ git rm -cached miarchivo.js
+        - git rm --force miarchivo.js Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
+        $ git rm miarchivo.js
 
 
 
@@ -36,6 +38,10 @@
     - Ver las diferencias y cambioos que se realizaron
 
         $ git diff
+
+    - O puedo comparar una modificacion con otra con los id de cada commit
+
+        $ git diff fc39271432e4ad5ba1e63db3843d542bb4b9d598 1eb9969bc55f23f5e22433572ddbec69684f27c3
 
 
 
@@ -51,6 +57,9 @@
     
         $ git commit -m "Mensaje de las modificaciones que se hicieron"
 
+    - Tambien se puede usar el commit con el tag -am que es add y mensaje (Hace las 2 funciones a la vez - No funciona con el commit inicial) 
+
+        $ git commit -am "Ejemplo del commit con el tag am"
 
 
 #### Git Push 

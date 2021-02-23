@@ -1,9 +1,15 @@
 
 ### Merge - Unir
 
-    - El merge se usa para unir una rama con otra
+    - El merge se usa para unir un version con otra version o una rama con otra rama
+
+        $ git merge main
 
     - Los merge se pueden usar para unir ramas que estuvieron trabajando diferentes equipos o devs
+
+        - Estando en la rama main hago
+
+            $ git merge dev-layout
 
     - Se puede usar para unir alguna modificacion de emergencia por algun bug encontrado en la rama principal
 
