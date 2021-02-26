@@ -9,12 +9,24 @@
 
     - Las ramas se pueden usar para hacer forks de una version en cualquier punto del repositorio
 
+
     - Tambien se pueden usar las ramas para que un equipo o dev trabaje en una parte del projecto y otro equipo en otra parte
         y despues juntar estas ramas en una sola.
+
 
     - Ver las ramas existentes
 
         $ git branch
+
+
+    - Mostrar todas las ramas
+
+        $ git branch -a
+
+        o 
+
+        $ git branch --all
+
 
     - Crear una rama nueva
 
@@ -28,17 +40,22 @@
         $ git checkout dev-layout
 
 
+
     - Push de la rama nueva
 
         $ git push origin dev-layout
         
     
+
     - Mostrar ramas con comentarios
 
         $ git show-branch
 
 
+
     - Mostrar ramas con comentarios y mas detalles
 
         $ git show-branch --all
+
+        
 
