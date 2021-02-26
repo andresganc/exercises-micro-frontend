@@ -104,6 +104,15 @@
         $ git log --all --graph --oneline
 
 
+
+#### Crear Alias
+
+    - Se pueden crer alias en lineas de comando que se usen con frecuencia y que sea muy largos
+        o dificiles de aprender
+
+        $ alias arbol = "git log --all --graph --oneline"      
+
+
     
 #### GitK
 
