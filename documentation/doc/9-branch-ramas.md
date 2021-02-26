@@ -27,3 +27,18 @@
 
         $ git checkout dev-layout
 
+
+    - Push de la rama nueva
+
+        $ git push origin dev-layout
+        
+    
+    - Mostrar ramas con comentarios
+
+        $ git show-branch
+
+
+    - Mostrar ramas con comentarios y mas detalles
+
+        $ git show-branch --all
+

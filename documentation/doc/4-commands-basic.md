@@ -88,6 +88,27 @@
         $ git log -stat
 
 
+    - Mostrar todo el historial de commits
+
+        $ git log --all
+
+
+    - Mostrar todo el historial de commits con grafico
+
+        $ git log --all --graph 
+
+
+    - Mostrar todo el historial de commits
+
+        $ git log --all --graph --oneline
+
+
+    
+#### GitK
+
+    - Gitk muestra un entorno grafico del repositorio con todo su historial y recorrido
+
+        $ gitk
 
 
 
