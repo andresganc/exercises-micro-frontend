@@ -1,0 +1,9 @@
+
+.div {
+    background-color: chocolate;
+    padding: 10px;
+}
+
+.div__div-header {
+    background-color: crimson;
+}
