@@ -81,11 +81,12 @@
     - Se pueden ver todo el historial de commit y modificaciones que se han hecho.
     
         $ git log 
+            - Para salir usar la letra q (quiet)
 
     
     - O se pude usar git log --stat se pueden ver los cambios mas detalladamente
 
-        $ git log -stat
+        $ git log --stat
 
 
     - Mostrar todo el historial de commits
