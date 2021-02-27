@@ -13,7 +13,7 @@
 
 ### Git Pull
 
-    - Git pull solo nos trae todas las ramas que se existan o que se hayan creado.
+    - Git pull nos trae solo las ramas que existan o que se hayan creado. (No trae modificaciones)
 
         $ git pull 
 
