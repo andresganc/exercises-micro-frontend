@@ -10,6 +10,7 @@
         - Estando en la rama main hago
 
             $ git merge dev-layout
+                - Traeria todo lo de dev-layout hacia main
 
     - Se puede usar para unir alguna modificacion de emergencia por algun bug encontrado en la rama principal
 
