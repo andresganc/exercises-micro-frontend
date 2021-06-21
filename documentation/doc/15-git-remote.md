@@ -16,7 +16,7 @@
 
 <br>
 
-### ENLASAR REPOSITORIO LOCAL A REMOTO
+### ENLASAR PROYECTO LOCAL A REPOSITORIO REMOTO
 
 #### 1. Create project si no se tiene (Opcional)
     $ git init
