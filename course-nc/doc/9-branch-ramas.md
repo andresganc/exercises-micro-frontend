@@ -51,6 +51,17 @@
 
 
 
+    - Renombrar Rama
+
+        1. $ git checkout <old_name>
+
+        2. $ git branch -m <new_name>
+
+        3. $ git push origin -u <new_name>
+
+        4. $ git push origin --delete <old_name>
+
+
 
     - Eliminar rama
 
