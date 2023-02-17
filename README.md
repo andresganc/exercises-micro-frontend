@@ -1,2 +1,3 @@
-# curso-git
-Curso NC GIT
+# EXERCISES MICRO FRONTEND
+
+    - Microfrontend
